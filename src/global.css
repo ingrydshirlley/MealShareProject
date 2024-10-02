@@ -4,11 +4,11 @@
 :root {
     --primary-color: #3B6978;
     --secondary-color: #D4A017;
-    --background-color: #382821;
     --text-color: #ffffff;
     --font-family: "Montserrat", sans-serif;
     --button-padding: 8px 15px;
     --border-radius: 10px;
+    --padding: 0px 75px 0px 75px;
 }
 
 * {
@@ -19,31 +19,31 @@
 
 body {
     font-family: var(--font-family);
-    background-color: var(--background-color);
     color: var(--text-color);
 }
 
 a {
     color: var(--text-color);
     text-decoration: none;
+    transition: .3s ease-in;
 }
 
 a:hover {
     color: var(--secondary-color);
 }
 
-button,
+
 .nav-btn {
     padding: var(--button-padding);
     border-radius: var(--border-radius);
-    border: 2px solid var(--primary-color);
-    background-color: transparent;
+    border: 2px solid transparent;
+    background-color: #3b6978a2;
     color: var(--text-color);
+    font-family: var(--font-family);
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: .3s ease-in;
 }
 
-button:hover,
 .nav-btn:hover {
     background-color: var(--primary-color);
     color: var(--text-color);

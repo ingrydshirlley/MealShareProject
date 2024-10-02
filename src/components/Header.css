@@ -1,9 +1,15 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 3;
     padding: 35px 75px;
-    background-color: #ffffff2c;
+    background-color: transparent;
+    background-blend-mode: multiply;
 }
 
 nav ul {
@@ -32,22 +38,7 @@ nav ul li a.active {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.nav-btn {
-    background-color: transparent;
-    border: 2px solid #3B6978;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.nav-btn:hover {
-    background-color: #3B6978;
-    color: white;
+    background-color: #2F4F4F;
 }
 
 .logo {

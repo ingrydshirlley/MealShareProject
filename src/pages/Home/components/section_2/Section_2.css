@@ -1,0 +1,12 @@
+.container-section-2 {
+    background-color:plum;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+}

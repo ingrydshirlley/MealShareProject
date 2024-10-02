@@ -1,0 +1,54 @@
+.container-main-section {
+    background-image: url("../../assets/background_home.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+}
+
+.container-main-section .texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.texts h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.texts p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.texts button {
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    background-color: #3b6978a2;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: .3s ease-in;
+    font-weight: 700;
+}
+
+.texts button:hover {
+    background-color: #3B6978;
+    color: white;
+}
