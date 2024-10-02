@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 75px;
+    background-color: transparent;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    padding: var(--button-padding);
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav ul li a.active {
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: 2px solid #3B6978;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #3B6978;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav-btn {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    /* Usando a variável de cor primária */
+    color: var(--text-color);
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+}
+
+.nav-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
