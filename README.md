@@ -26,4 +26,4 @@ Além disto, é bom ter um editor para trabalhar com o código, como [VSCode](ht
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/mealshare.git
+   git clone https://github.com/ingrydshirlley/MealShareProject.git
