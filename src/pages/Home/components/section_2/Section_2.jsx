@@ -21,7 +21,7 @@ function Section_2() {
             <div className="container_img">
                 <img src={img_brasil} alt="Mapa do Brasil com alimentos" />
                 <div className="circle-stat">
-                    <span>64M de pessoas<br />têm acesso<br />restrito à comida.</span>
+                    <span><span>64M</span><br />de pessoas têm acesso restrito à comida.</span>
                 </div>
             </div>
         </div>

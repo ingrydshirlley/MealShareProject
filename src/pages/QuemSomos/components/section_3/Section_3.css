@@ -1,0 +1,112 @@
+.section3 {
+    background-color: #D9EAD3;
+    height: 1148px;
+}
+
+.sobre-transparencia {
+    padding-top: 70px;
+    height: 392px;
+    width: 1368px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: end;
+}
+
+.transparencia {
+    padding-top: 69px;
+    padding-left: 112px;
+    width: 863px;
+    height: 392px;
+    background-color: #D4A017;
+    border-radius: 0px 400px 400px 0px;
+}
+
+.transparencia>h1 {
+    font-size: 54px;
+    line-height: 69px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.transparencia>p {
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    padding-bottom: 69px;
+}
+
+.btn-transparencia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    border: 1px solid black;
+}
+
+.btn-transparencia>button {
+    width: 450px;
+    height: 48px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    line-height: 20px;
+}
+
+#btn-estatuto {
+    background-color: #2F4F4F;
+}
+
+#btn-praticas {
+    background-color: #3B6978;
+}
+
+#btn-codigo {
+    background-color: #2F4F4F;
+}
+
+.sobre-relatorio {
+    height: 543px;
+    width: 1129px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.relatorio-anual {
+    width: 1129px;
+    height: 543px;
+    border-radius: 0px 400px 400px 0px;
+    background-color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.relatorio-anual>h1 {
+    padding-bottom: 18px;
+    font-size: 54px;
+    font-weight: 900;
+    color: #4D4D4D;
+    line-height: 69px;
+    letter-spacing: 0.8px;
+}
+
+.relatorio-anual>p {
+    font-size: 18px;
+    line-height: 29px;
+    color: #4D4D4D;
+}
+
+.btn-relatorio>button {
+    height: 46px;
+    width: 222px;
+    margin-top: 43px;
+    background-color: #D4A017;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}

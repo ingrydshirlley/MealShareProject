@@ -1,0 +1,115 @@
+.section2 {
+    height: 1370px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nossa-missao {
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+
+.nossa-missao>h1 {
+    text-align: center;
+    color: #2F4F4F;
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.nossa-missao>p {
+    font-size: 25px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.nossa-visao {
+    margin-bottom: 140px;
+}
+
+.nossa-visao>h1 {
+    text-align: center;
+    color: #2F4F4F;
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.nossa-visao>p {
+    font-size: 25px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.nossos-valores {
+    height: 430px;
+    width: 1289px;
+    border: 1px solid black;
+}
+
+.nossos-valores>h1 {
+    text-align: center;
+    color: #2F4F4F;
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.valores-dignidade>h3 {
+    color: #D4A017;
+}
+
+.valores-dignidade>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.valores-solidariedade>h3 {
+    color: #D4A017;
+}
+
+.valores-solidariedade>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.valores-sustentabilidade>h3 {
+    color: #D4A017;
+}
+
+.valores-sustentabilidade>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.valores-conexao>h3 {
+    color: #D4A017;
+}
+
+.valores-conexao>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.valores-transparencia>h3 {
+    color: #D4A017;
+}
+
+.valores-transparencia>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.valores-empoderamento>h3 {
+    color: #D4A017;
+}
+
+.valores-empoderamento>p {
+    font-size: 20px;
+    color: #4D4D4D;
+}
