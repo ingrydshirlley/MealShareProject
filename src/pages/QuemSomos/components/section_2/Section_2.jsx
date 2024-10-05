@@ -6,16 +6,18 @@ function Section_2() {
             <section className='section2'>
                 <div className='nossa-missao'>
                     <h1>NOSSA MISSÃO</h1>
-                    <p>Nossa missão é <strong>conectar generosidade e necessidade</strong>, proporcionando refeições solidárias para <br />
-                        pessoas em situação de vulnerabilidade alimentar. Através de <strong>parcerias com restaurantes e <br />
+                    <p>Nossa missão é <strong>conectar generosidade e necessidade</strong>, proporcionando refeições solidárias para
+                        pessoas em situação de vulnerabilidade alimentar. Através de <strong>parcerias com restaurantes e
                             doadores</strong>, promovemos dignidade, inclusão e um ciclo de impacto social positivo.</p>
                 </div>
+
                 <div className='nossa-visao'>
                     <h1>NOSSA VISÃO</h1>
-                    <p>Criar um mundo onde <strong>cada pessoa tenha acesso a refeições nutritivas e dignas</strong>, promovendo<br />
-                        uma cultura de generosidade e colaboração entre indivíduos, comunidades e negócios para ,<br />
+                    <p>Criar um mundo onde <strong>cada pessoa tenha acesso a refeições nutritivas e dignas</strong>, promovendo
+                        uma cultura de generosidade e colaboração entre indivíduos, comunidades e negócios para ,
                         <strong>combater a fome e a insegurança alimentar.</strong></p>
                 </div>
+
                 <div className='nossos-valores'>
                     <h1>NOSSOS VALORES</h1>
                     <div className='valores'>
@@ -58,6 +60,7 @@ function Section_2() {
                     </div>
                 </div>
             </section>
+
         </>
     )
 }

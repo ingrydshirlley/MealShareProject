@@ -1,44 +1,63 @@
 .section1 {
     background-color: #2F4F4F;
     height: 70vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
 }
 
 .quem-somos {
-    width: 660px;
-    height: 400px;
-    padding-left: 77px;
-    padding-top: 80px;
+    padding-top: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
 }
 
 .quem-somos>h1 {
-    width: 660px;
-    font-size: 45px;
     font-weight: 800;
-    padding-bottom: 30px;
-    line-height: 69px;
     letter-spacing: 0.8px;
+    font-size: 45px;
+    margin-bottom: 1.5rem;
 }
 
 .quem-somos>hr {
-    width: 520px;
-    margin-bottom: 30px;
+    width: 30rem;
+    margin-bottom: 1.5rem;
     border-color: #D4A017;
 }
 
 .quem-somos>p {
-    width: 660px;
-    padding-bottom: 30px;
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    letter-spacing: 0.5px;
-    line-height: 29px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2.5rem;
 }
 
 .quem-somos>button {
-    width: 140px;
-    height: 43px;
     background-color: #D4A017;
-    border: none;
-    font-weight: bold;
-    font-size: 14px;
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: .3s ease-in;
+    font-weight: 700;
+}
+
+.img {
+    width: 100%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
 }
