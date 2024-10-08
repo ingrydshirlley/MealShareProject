@@ -1,60 +1,61 @@
 .section3 {
     background-color: #D9EAD3;
-    height: 1148px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sobre-transparencia {
-    padding-top: 70px;
-    height: 392px;
-    width: 1368px;
+    padding: 4rem 75px 0px 0px;
+    height: fit-content;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-items: end;
+    justify-content: space-between;
 }
 
 .transparencia {
-    padding-top: 69px;
-    padding-left: 112px;
-    width: 863px;
-    height: 392px;
+    width: 50%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
     background-color: #D4A017;
     border-radius: 0px 400px 400px 0px;
+    padding-left: 75PX;
+    gap: 1.5rem;
 }
 
 .transparencia>h1 {
-    font-size: 54px;
-    line-height: 69px;
-    letter-spacing: 0.8px;
+    font-size: 3.5rem;
     font-weight: bold;
-    padding-bottom: 18px;
 }
 
 .transparencia>p {
-    font-size: 18px;
-    line-height: 29px;
-    letter-spacing: 0.5px;
-    padding-bottom: 69px;
+    font-size: 1.25rem;
 }
 
 .btn-transparencia {
     display: flex;
     flex-direction: column;
-    margin-left: 55px;
-    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .btn-transparencia>button {
-    width: 450px;
-    height: 48px;
+    width: 30rem;
+    height: 3rem;
     border-radius: 15px;
-    margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 1.2rem;
     letter-spacing: 1.8px;
-    line-height: 20px;
+    border: 1px solid #4D4D4D;
 }
 
-#btn-estatuto {
+#btn-estatuto, #btn-codigo {
     background-color: #2F4F4F;
 }
 
@@ -62,51 +63,57 @@
     background-color: #3B6978;
 }
 
-#btn-codigo {
-    background-color: #2F4F4F;
-}
 
 .sobre-relatorio {
-    height: 543px;
-    width: 1129px;
-    margin-top: 40px;
+    margin-top: 2rem;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 5rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .relatorio-anual {
-    width: 1129px;
-    height: 543px;
-    border-radius: 0px 400px 400px 0px;
     background-color: #F5F5DC;
+    width: 50%;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
+    text-align: end;
+    border-radius: 400px 0px 0px 400px;
+    padding-right: 75PX;
+    gap: 1.5rem;
 }
 
 .relatorio-anual>h1 {
-    padding-bottom: 18px;
-    font-size: 54px;
     font-weight: 900;
     color: #4D4D4D;
-    line-height: 69px;
-    letter-spacing: 0.8px;
+    font-size: 3.5rem;
 }
 
 .relatorio-anual>p {
-    font-size: 18px;
-    line-height: 29px;
+    font-size: 1.25rem;
     color: #4D4D4D;
 }
 
-.btn-relatorio>button {
-    height: 46px;
-    width: 222px;
-    margin-top: 43px;
+.btn-relatorio {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+.btn-relatorio > button {
+    height: 3rem;
+    width: 12rem;
     background-color: #D4A017;
     border: none;
-    font-size: 18px;
     font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.1rem;
 }
+

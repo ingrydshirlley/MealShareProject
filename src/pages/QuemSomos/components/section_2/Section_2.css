@@ -55,56 +55,11 @@
     text-align: center;
     margin: 40px 0;
 }
-.valores-dignidade>h3 {
+.valores-box>h3 {
     color: #D4A017;
 }
 
-.valores-dignidade>p {
-    font-size: 20px;
-    color: #4D4D4D;
-}
-
-.valores-solidariedade>h3 {
-    color: #D4A017;
-}
-
-.valores-solidariedade>p {
-    font-size: 20px;
-    color: #4D4D4D;
-}
-
-.valores-sustentabilidade>h3 {
-    color: #D4A017;
-}
-
-.valores-sustentabilidade>p {
-    font-size: 20px;
-    color: #4D4D4D;
-}
-
-.valores-conexao>h3 {
-    color: #D4A017;
-}
-
-.valores-conexao>p {
-    font-size: 20px;
-    color: #4D4D4D;
-}
-
-.valores-transparencia>h3 {
-    color: #D4A017;
-}
-
-.valores-transparencia>p {
-    font-size: 20px;
-    color: #4D4D4D;
-}
-
-.valores-empoderamento>h3 {
-    color: #D4A017;
-}
-
-.valores-empoderamento>p {
+.valores-box>p {
     font-size: 20px;
     color: #4D4D4D;
 }
