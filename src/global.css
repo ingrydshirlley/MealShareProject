@@ -9,7 +9,7 @@
     --font-family: "Montserrat", sans-serif;
     --button-padding: 8px 15px;
     --border-radius: 10px;
-    --padding: 0px 75px 0px 75px;
+    --padding: 2rem 5%;
 }
 
 * {
