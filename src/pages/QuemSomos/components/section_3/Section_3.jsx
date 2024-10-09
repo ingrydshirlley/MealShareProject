@@ -1,5 +1,5 @@
 import "./Section_3.css"
-import Vector2 from "../../assets/Vector2.png"
+import Vector2 from "../../assets/Vector2.svg"
 function Section_3() {
     return (
         <>
@@ -7,6 +7,7 @@ function Section_3() {
             <div className="img">
                 <img src={Vector2} alt="" />
             </div>
+            
             <section className='section3'>
 
                 <div className='sobre-transparencia'>

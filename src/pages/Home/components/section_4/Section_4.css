@@ -5,8 +5,13 @@
     align-items: center;
     justify-content: space-between;
     padding: var(--padding);
-    margin-top: 3rem;
     height: fit-content;
+    padding-bottom: 7rem;
+}
+
+.container-section-4 h1{
+    text-align: center;
+    width: 100%;
 }
 
 .container-section-4 .texts {
