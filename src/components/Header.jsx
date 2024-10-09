@@ -1,12 +1,30 @@
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import './Header.css';
 import logo from '../assets/logo.svg';
 
 function Header() {
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header>
+    <header className={scrolled ? "scrolled" : ""}>
       <div className="logo">
         <img src={logo} alt="MealShare Logo" />
       </div>
@@ -28,5 +46,3 @@ function Header() {
 }
 
 export default Header;
-
-

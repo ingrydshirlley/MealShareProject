@@ -1,19 +1,18 @@
 import React from "react";
 import "./SecondSection.css";
-import seta from "../../assets/seta.svg";
 
 function SecondSection() {
   return (
     <div className="container-second">
 
-    <div className="register-container">
-      <div className="cadastro">
+      <div className="register-container">
+        <div className="cadastro">
           <h1>Cadastro</h1>
+        </div>
+
+        <div className="linhaCadastro"></div>
       </div>
 
-      <div className="linhaCadastro"></div>
-    </div>
-      
 
 
       <div className="form">
@@ -22,11 +21,15 @@ function SecondSection() {
           <div>
             <h1>Você é</h1>
           </div>
-          <div className="dropdown" >
+          <div className="dropdown">
             <div className="input-wrapper">
-              <input type="text" className="textBox" placeholder="Restaurante" /> 
-              <img src={seta} alt="" className="input-icon"/>
-            </div>   
+              <select className="inputCustom" name="tipoRestaurante" id="tipoRestaurante">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="doador">Doador</option>
+                <option value="doador">Restaurante Parceiro</option>
+                <option value="ajuda">QSolicitante</option>
+              </select>
+            </div>
           </div>
         </div>
 
@@ -46,7 +49,7 @@ function SecondSection() {
               <h1>Seu telefone</h1>
             </div>
             <div>
-              <input type="number" name="telefone" id="telefone" className="inputCustom inputFone "/>
+              <input type="number" name="telefone" id="telefone" className="inputCustom inputFone " />
             </div>
           </div>
 
@@ -59,7 +62,7 @@ function SecondSection() {
             </div>
           </div>
         </div>
-        
+
         <div className="secondLine">
 
           <div className="campo">
@@ -67,7 +70,7 @@ function SecondSection() {
               <h1>Data de Nascimento</h1>
             </div>
             <div>
-              <input type="date" name="telefone" id="dataNascimento" className="inputCustom inputDate"/>
+              <input type="date" name="telefone" id="dataNascimento" className="inputCustom inputDate" />
             </div>
           </div>
 
@@ -85,7 +88,7 @@ function SecondSection() {
               <h1>CEP</h1>
             </div>
             <div>
-              <input type="number" name="cep" id="cep" className="inputCustom inputCep"/>
+              <input type="number" name="cep" id="cep" className="inputCustom inputCep" />
             </div>
           </div>
 
@@ -94,10 +97,10 @@ function SecondSection() {
               <h1>Endereço</h1>
             </div>
             <div>
-              <input type="text" name="endereco" id="endereco" className="inputCustom inputAdress"/>
+              <input type="text" name="endereco" id="endereco" className="inputCustom inputAdress" />
             </div>
           </div>
-          
+
         </div>
 
         <div className="thirdLine">
@@ -106,7 +109,7 @@ function SecondSection() {
               <h1>Email</h1>
             </div>
             <div>
-              <input type="email" name="email" id="email" className="inputCustom inputEmail"/>
+              <input type="email" name="email" id="email" className="inputCustom inputEmail" />
             </div>
           </div>
 
@@ -115,7 +118,7 @@ function SecondSection() {
               <h1>Confirmar email</h1>
             </div>
             <div>
-              <input type="email" name="email" id="email" className="inputCustom inputEmailAgain"/>
+              <input type="email" name="email" id="email" className="inputCustom inputEmailAgain" />
             </div>
           </div>
         </div>
@@ -126,7 +129,7 @@ function SecondSection() {
               <h1>Senha</h1>
             </div>
             <div>
-              <input type="password" name="senha" id="senha" className="inputCustom inputPassword"/>
+              <input type="password" name="senha" id="senha" className="inputCustom inputPassword" />
             </div>
           </div>
 
@@ -135,7 +138,7 @@ function SecondSection() {
               <h1>Confirmar Senha</h1>
             </div>
             <div>
-              <input type="password" name="confirmarSenha" id="confirmarSenha" className="inputCustom inputPassword"/>
+              <input type="password" name="confirmarSenha" id="confirmarSenha" className="inputCustom inputPassword" />
             </div>
           </div>
         </div>
@@ -144,7 +147,7 @@ function SecondSection() {
 
       <div className="checkbox">
         <div>
-          <input type="checkbox" name="termos" id="termos"/>
+          <input type="checkbox" name="termos" id="termos" />
         </div>
         <h1>Concordo com a coleta e uso interno dos dados enviados neste formulário, não sendo fornecidos para terceiros.</h1>
       </div>
