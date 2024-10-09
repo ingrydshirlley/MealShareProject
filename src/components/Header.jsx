@@ -19,7 +19,7 @@ function Header() {
             <Link to="/quem-somos" className={location.pathname === "/quem-somos" ? "active" : ""}>Quem Somos</Link>
           </li>
           <li>
-            <Link to="/doe-agora" className="nav-btn">Doe Agora</Link>
+            <Link to="/doe-agora" className={location.pathname === "/doe-agora" ? "active" : ""}>Doe Agora</Link>
           </li>
         </ul>
       </nav>
@@ -28,3 +28,5 @@ function Header() {
 }
 
 export default Header;
+
+
