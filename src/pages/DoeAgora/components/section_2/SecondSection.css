@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-second {
+    padding: var(--padding);
+  }
+
+.register-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .cadastro h1 {
+    font-size: 45px;
+    color: #2F4F4F;
+  }
+  
+  .linhaCadastro {
+    height: 0.2rem;
+    width: 75rem; 
+    background-color: #4F7983;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .inputCustom, .inputName, .inputFone {
+    padding: 5px;
+    border: 2px solid #B9B9B9;
+    border-radius: 5px; 
+    background-color: #F2F2F2; 
+    font-size: 13px;
+    transition: border-color 0.3s ease; 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+ .form h1 { 
+    font-size: 17px;
+    color: #4D4D4D;
+    font-weight: 600;
+ }
+
+ .dropdown input {
+  width: 240px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #B9B9B9;
+  border-radius: 5px; 
+  background-color: #F2F2F2;
+ }
+
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+
+}
+
+.input-icon {
+  position: absolute;
+  right: 83%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px; 
+  pointer-events: none; 
+}
+
+ .dropdown .options div:hover {
+  background: #e1dfdf;
+ }
+
+
+ .cadastrar {
+  width: 100%;
+  background-color: #D4A017 ;
+  color: #F2F2F2;
+  border-radius: 20px;
+  border: 2px solid;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  margin-top: 35px;
+ }
+ 
+ .tipoPessoa {
+  margin-top: 50px;
+ }
+
+ .firstLine {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 20px; 
+}
+
+.inputName {
+  width: 500px;
+}
+
+.inputFone {
+  width: 370px;
+}
+
+.inputPessoa {
+  width: 340px;
+}
+
+.secondLine {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 25px; 
+}
+
+.inputDate {
+  width: 250px;
+}
+
+.inputCPF {
+  width: 250px;
+}
+
+.inputCep {
+  width: 250px;
+}
+
+.inputAdress {
+  width: 400px;
+}
+
+.thirdLine {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px; 
+} 
+
+.inputEmail {
+  width: 635px;
+}
+
+.inputEmailAgain {
+  width: 635px;
+}
+
+.fourthLine {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 30px; 
+}
+
+.inputPassword {
+  width: 300px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+.checkbox h1{
+  font-size: 13px;
+  color: #4D4D4D;
+  padding-left: 10px;
+}
+
+.checkbox input {
+  cursor: pointer;
+}
+
+
+  
