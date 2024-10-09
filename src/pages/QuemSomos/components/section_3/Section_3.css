@@ -1,61 +1,60 @@
 .section3 {
     background-color: #D9EAD3;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 1148px;
 }
 
 .sobre-transparencia {
-    padding: 4rem 75px 0px 0px;
-    height: fit-content;
-    width: 100%;
+    padding-top: 70px;
+    height: 392px;
+    width: 1368px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-items: end;
 }
 
 .transparencia {
-    width: 50%;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    padding-top: 69px;
+    padding-left: 112px;
+    width: 863px;
+    height: 392px;
     background-color: #D4A017;
     border-radius: 0px 400px 400px 0px;
-    padding-left: 75PX;
-    gap: 1.5rem;
 }
 
 .transparencia>h1 {
-    font-size: 3.5rem;
+    font-size: 54px;
+    line-height: 69px;
+    letter-spacing: 0.8px;
     font-weight: bold;
+    padding-bottom: 18px;
 }
 
 .transparencia>p {
-    font-size: 1.25rem;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    padding-bottom: 69px;
 }
 
 .btn-transparencia {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    margin-left: 55px;
+    border: 1px solid black;
 }
 
 .btn-transparencia>button {
-    width: 30rem;
-    height: 3rem;
+    width: 450px;
+    height: 48px;
     border-radius: 15px;
-    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-size: 18px;
     letter-spacing: 1.8px;
-    border: 1px solid #4D4D4D;
+    line-height: 20px;
 }
 
-#btn-estatuto, #btn-codigo {
+#btn-estatuto {
     background-color: #2F4F4F;
 }
 
@@ -63,57 +62,51 @@
     background-color: #3B6978;
 }
 
-
-.sobre-relatorio {
-    margin-top: 2rem;
-    height: fit-content;
-    width: 100%;
-    padding-bottom: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+#btn-codigo {
+    background-color: #2F4F4F;
 }
 
-.relatorio-anual {
-    background-color: #F5F5DC;
-    width: 50%;
-    height: 30rem;
+.sobre-relatorio {
+    height: 543px;
+    width: 1129px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
-    text-align: end;
-    border-radius: 400px 0px 0px 400px;
-    padding-right: 75PX;
-    gap: 1.5rem;
+    flex-wrap: wrap-reverse;
+}
+
+.relatorio-anual {
+    width: 1129px;
+    height: 543px;
+    border-radius: 0px 400px 400px 0px;
+    background-color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .relatorio-anual>h1 {
+    padding-bottom: 18px;
+    font-size: 54px;
     font-weight: 900;
     color: #4D4D4D;
-    font-size: 3.5rem;
+    line-height: 69px;
+    letter-spacing: 0.8px;
 }
 
 .relatorio-anual>p {
-    font-size: 1.25rem;
+    font-size: 18px;
+    line-height: 29px;
     color: #4D4D4D;
 }
 
-.btn-relatorio {
-    display: flex;
-    justify-content: flex-end; 
-    width: 100%; 
-}
-
-.btn-relatorio > button {
-    height: 3rem;
-    width: 12rem;
+.btn-relatorio>button {
+    height: 46px;
+    width: 222px;
+    margin-top: 43px;
     background-color: #D4A017;
     border: none;
+    font-size: 18px;
     font-weight: bold;
-    color: white;
-    border-radius: 15px;
-    font-size: 1.1rem;
 }
-

@@ -1,11 +1,13 @@
 import React from "react";
-/* import Footer from "../../components/Footer"; */
+import FirstSection from "./components/section_1/FirstSection";
+import SecondSection from "./components/section_2/SecondSection";
 
 function DoeAgora() {
   return (
-    <div>
-      Faça sua Doação
-    </div>
+    <>
+      <FirstSection/>
+      <SecondSection/>
+    </>
   )
 }
 
