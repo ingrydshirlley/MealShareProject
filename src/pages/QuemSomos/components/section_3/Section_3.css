@@ -55,6 +55,7 @@
     font-size: 1.2rem;
     letter-spacing: 1.8px;
     border: 1px solid #4D4D4D;
+    cursor: pointer;
 }
 
 #btn-estatuto, #btn-codigo {
@@ -116,4 +117,5 @@
     color: white;
     border-radius: 15px;
     font-size: 1.1rem;
+    cursor: pointer;
 }
