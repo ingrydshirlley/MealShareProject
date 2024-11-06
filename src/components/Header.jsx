@@ -26,7 +26,9 @@ function Header() {
   return (
     <header className={scrolled ? "scrolled" : ""}>
       <div className="logo">
-        <img src={logo} alt="MealShare Logo" />
+        <a className="img-logo" href='/'>
+         <img src={logo} alt='logo'/>
+         </a>
       </div>
       <nav>
         <ul>
@@ -37,11 +39,15 @@ function Header() {
             <Link to="/quem-somos" className={location.pathname === "/quem-somos" ? "active" : ""}>Quem Somos</Link>
           </li>
           <li>
+            <Link to="/lojas" className={location.pathname === "/lojas" ? "active" : ""}>Lojas</Link>
+          </li>
+          <li>
             <Link to="/doe-agora" className={location.pathname === "/doe-agora" ? "active" : ""}>Doe Agora</Link>
           </li>
         </ul>
       </nav>
     </header>
+    
   );
 }
 

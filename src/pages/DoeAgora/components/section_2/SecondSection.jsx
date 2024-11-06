@@ -27,7 +27,7 @@ function SecondSection() {
                 <option value="" disabled selected>Selecione uma opção</option>
                 <option value="doador">Doador</option>
                 <option value="doador">Restaurante Parceiro</option>
-                <option value="ajuda">QSolicitante</option>
+                <option value="ajuda">Solicitante</option>
               </select>
             </div>
           </div>
