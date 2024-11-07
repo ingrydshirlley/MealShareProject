@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FirstSection.css';
+import '../../../components/globalLojas.css';
 import imgRestaurante from "../../../assets/mcdonald.svg";
 import pao from "../../../assets/pao.svg";
 import Modal from '../Modal/modal.jsx';

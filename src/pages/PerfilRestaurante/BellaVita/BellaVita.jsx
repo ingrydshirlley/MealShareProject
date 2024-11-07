@@ -1,10 +1,10 @@
 import React from "react";
-import FirstSection from "./components/section_1/FirstSection";
+import FirstSection1 from "./components/section_1/FirstSection1";
 
 function BellaVita() {
   return (
     <>
-      <FirstSection />
+      <FirstSection1 />
     </>
   );
 }

@@ -1,0 +1,247 @@
+body {
+    background-color: #F2F2F2;
+  }
+
+.restaurante {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.restaurante h1 {
+    font-size: 2.8vw;
+    font-weight: 800;
+    color: #4D4D4D;
+    font-family: var(--font-family);
+    margin: 0 7vw vw;
+}
+
+.vouchers {
+    margin: 0 7vw 2vw;
+}
+
+.text-vouchers h1 {
+    font-size: 1.3vw;
+    font-weight: 800;
+    color: #4D4D4D;
+    margin-top: 4vw;
+    font-family: var(--font-family);
+}
+
+.background-vouchers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 14vw;
+    background-color: white;
+    margin-top: 1vw;
+    border: 3px solid #F2F2F2;
+    border-radius: 13px;
+    padding: 0 2vw 0 2vw;
+}
+
+.voucher-card {
+    display: flex;
+    padding: 0.5vw;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    height: 11vw;
+    width: 11vw;
+    border: 2px solid #DBE1E2;
+    border-radius: 1vw;
+}
+
+.pessoa {
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #4F7983;
+    text-align: center;
+}
+
+.pedido {
+    margin-top: 1.7vw;
+    font-size: 1vw;
+    color: #4D4D4D;
+    justify-content: flex-start;
+}
+
+.valor {
+    font-size: 0.8vw;
+    color: #4F7983;
+    margin-top: 0.2vw;
+}
+
+.arrecadado {
+    font-size: 0.7vw;
+    color: #4F7983;
+    margin-bottom: 0.2vw;
+}
+
+.doar {
+    color: white;
+    margin-top: 0.2vw;
+    border: none;
+    background-color: #4F7983;
+    width: 8vw;
+    padding: 0.3vw;
+    border-radius: 1vw;
+    font-size: 0.9vw;
+    align-self: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.aberto {
+    margin-top: 10px;
+    font-size: 1.1vw;
+    color: #D4A017;
+    text-align: center;
+}
+
+.refeicao {
+    margin-top: 1.7vw;
+    font-size: 1.0vw;
+    color: #4D4D4D;
+    justify-content: flex-start;
+}
+
+.nomerefeicao {
+    font-size: 0.8vw;
+    color: #4D4D4D;
+}
+
+.preco {
+    font-size: 0.9vw;
+    color: #D4A017;
+    margin-top: 0.2vw;
+}
+
+.reivindicar {
+    font-size: 10;
+    color: white;
+    margin-top: 0.6vw;
+    border: none;
+    background-color: #D4A017;
+    width: 8vw;
+    padding: 0.3vw;
+    border-radius: 1vw;
+    font-size: 0.9vw;
+    align-self: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.cardreivindicar {
+    border: 2px solid #D4A017;
+}
+
+.text-cardapio h1 {
+    font-size: 1.3vw;
+    font-weight: 800;
+    color: #4D4D4D;
+}
+
+.container-cardapio {
+    height: 35vw;
+    margin-top: 0.3vw;
+    padding: 10px 0 1px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.cardCardapio {
+    display: flex;
+    width: 49%;
+    height: 10.5vw;
+    background-color: white;
+    border: 3px solid #F2F2F2;
+    border-radius: 17px;
+    padding: 20px 20px;
+}
+
+.nome {
+    font-size: 1.2vw;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.desc {
+    color: #4D4D4D;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+    font-weight: 450;
+}
+
+.precoRef {
+    color: #4D4D4D;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.img-pao {
+    display: flex;
+    margin-left: 2.5vw;
+}
+
+.doar2 {
+    color: white;
+    border: none;
+    height: 1.5vw;
+    background-color: #4F7983;
+    justify-content: center;
+    width: 7vw;
+    padding: 0.2vw;
+    font-size: 0.9vw;
+    border-radius: 0.5vw;
+    font-family: var(--font-family);
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.precoDoacao {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 10px;
+}
+
+.cardapioetext{
+    margin: 0 7vw 2vw;
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .doar2 {
+        height: 1.6vw; 
+    }
+
+    .pessoa {
+        font-size: 1.1vw;
+    }
+
+    .voucher-card .pedido {
+        font-size: 1.3vw;
+    }
+
+    .voucher-card .arrecadado {
+        font-size: 0.7vw;
+    }
+
+    .cardreivindicar .refeicao {
+        margin-top: 1.8vw;
+    }
+
+    .cardreivindicar .reivindicar{
+        margin-top: 0.3vw;
+    }
+
+    .cardCardapio {
+        height: 11vw;
+    }
+}

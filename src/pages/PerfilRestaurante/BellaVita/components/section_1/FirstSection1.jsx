@@ -44,7 +44,7 @@ import Modal3 from '../Modal/modal3.jsx';
 
             <div className='restaurante'>
                 <img className='img-restaurante'src={imgRestaurante} alt="Restaurante" />
-                <h1>Sabor E Arte</h1>
+                <h1>Bella Vita</h1>
             </div>
 
             <div className='vouchers'>
