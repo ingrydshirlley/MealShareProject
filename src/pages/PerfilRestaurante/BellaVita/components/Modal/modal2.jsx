@@ -1,7 +1,7 @@
 import React from 'react';
 import './Modal2.css';
-import menos from '../../assets/menos.svg'
-import mais from '../../assets/mais.svg'
+import menos from "../../../assets/menos.svg"
+import mais from "../../../assets/mais.svg"
 
 function Modal2({ isOpen, onRequestClose }) {
     if (!isOpen) return null;

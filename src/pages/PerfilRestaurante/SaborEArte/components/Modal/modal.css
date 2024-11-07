@@ -1,0 +1,157 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-container {
+    background-color: #FFFFFF;
+    border: solid 2px #DBE1E2;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 27vw;
+    height: 32vw;
+    border: solid 2px #DBE1E2;
+    border-radius: 1vw;
+    padding: 0.4vw 1vw 0 1vw;
+
+}
+
+.pedido {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.orangeText {
+    color: #D4A017;
+    font-weight: 800;
+    font-size: 1.3vw;
+}
+
+.solicitacao{
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+.nameid {
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+}
+
+.boxnomeid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.textBold {
+    color: #4D4D4D;
+    font-weight: 800;
+}
+
+.orangeText2 {
+    color: #D4A017 ;
+    font-size: 1vw;
+    font-weight: 800;
+}
+
+.valorTot {
+    color: #4D4D4D;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.boxValor {
+    display: flex;
+    border: solid 1px #DBE1E2;
+    width: 10vw;
+    height: 2.2vw;
+    border-radius: 0.5vw;
+    padding: 0.6vw;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.boxFooter h2 {
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+
+.btndoar {
+    color: #FFFFFF;
+    border: none;
+    background-color: #D4A017;
+    font-family: var(--font-family);
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 0.5vw;
+    letter-spacing: 0.1vw;
+    height: 2.1vw;
+    width: 6.5vw;
+    margin-left: 0.5vw;
+}
+
+.solicitafoto {
+    justify-items: center;
+    margin-top: 1vw;
+}
+
+.logoPerfil {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 1vw;
+}
+
+.boxFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    align-items: center;
+    gap: 0.5vw; 
+}
+
+.belownameid {
+    margin-top: 2vw;
+}
+
+.progress {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    height: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #D4A017;
+    border-radius: 8px;
+    height: 10px;
+}
+
+.cifrao {
+    margin-left: 1px;
+}

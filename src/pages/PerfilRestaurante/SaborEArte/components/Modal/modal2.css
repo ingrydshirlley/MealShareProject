@@ -1,0 +1,141 @@
+.modal-overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-container2 {
+    background-color: #FFFFFF;
+    border: solid 2px #DBE1E2;
+    border-radius: 1vw;
+    width: 38vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 22vw;
+    border: solid 2px #DBE1E2;
+    border-radius: 1vw;
+    padding: 0vw 1vw 0 1vw;
+
+}
+
+.nomeRefeicao {
+    color: #D4A017;
+    font-size: 1.4vw;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1vw;
+}
+
+.contador {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 0.2vw;
+}
+
+.iconContador {
+    cursor: pointer;
+}
+
+.boxNumeroContador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5vw;
+    width: 3.3vw;
+    height: 2.7vw;
+    border: solid 2px #DBE1E2;
+}
+
+.boxNumeroContador h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.totalContador {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: #4D4D4D;
+    font-size: 1.4vw;
+}
+
+.totalContador span {
+    margin-right: 0.4vw;
+    font-weight: 800;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.8vw;
+    margin-top: 1vw;
+}
+
+.deixarAberto {
+    border: none;
+    background-color: #4F7983;
+    font-family: var(--font-family);
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    font-size: 0.9vw;
+    font-weight: 700;
+    height: 3.6vw;
+    width: 14vw;
+    padding: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+.ativarSoli {
+    border: solid 2px #4F7983;
+    font-family: var(--font-family);
+    color: #4F7983;
+    letter-spacing: 0.5px;
+    font-size: 0.9vw;
+    font-weight: 700;
+    height: 3.6vw;
+    width: 14vw;
+    padding: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+.buttonDoar3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+}
+
+.doar3 {
+    height: 2.5vw;
+    width: 10vw;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #D4A017;
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}

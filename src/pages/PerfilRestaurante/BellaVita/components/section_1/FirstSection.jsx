@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FirstSection.css';
-import imgRestaurante from "../../assets/mcdonald.svg";
-import pao from "../../assets/pao.svg";
+import imgRestaurante from "../../../assets/mcdonald.svg";
+import pao from "../../../assets/pao.svg";
 import Modal from '../Modal/modal.jsx';
 import Modal2 from '../Modal/modal2.jsx';
 import Modal3 from '../Modal/modal3.jsx';
@@ -44,7 +44,7 @@ import Modal3 from '../Modal/modal3.jsx';
 
             <div className='restaurante'>
                 <img className='img-restaurante'src={imgRestaurante} alt="Restaurante" />
-                <h1>Mc Donald's</h1>
+                <h1>Bella Vita</h1>
             </div>
 
             <div className='vouchers'>

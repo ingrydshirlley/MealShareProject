@@ -119,6 +119,7 @@
     color: #D4A017;
     border-radius: 15px;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 .btn-loja2 > button {
@@ -130,4 +131,5 @@
     color: #D9EAD3;
     border-radius: 15px;
     font-size: 1.1rem;
+    cursor: pointer;
 }

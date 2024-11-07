@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import logoPerfil from "../../assets/logoPerfil.svg";
+import logoPerfil from "../../../assets/logoPerfil.svg";
 
 function Modal({ isOpen, onRequestClose }) {
     if (!isOpen) return null;

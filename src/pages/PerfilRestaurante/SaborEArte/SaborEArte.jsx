@@ -1,7 +1,7 @@
 import React from "react";
 import FirstSection from "./components/section_1/FirstSection";
 
-function PerfilRestaurante() {
+function SaborEArte() {
   return (
     <>
       <FirstSection />
@@ -9,4 +9,4 @@ function PerfilRestaurante() {
   );
 }
 
-export default PerfilRestaurante;
+export default SaborEArte;

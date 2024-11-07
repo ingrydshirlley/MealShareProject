@@ -1,5 +1,7 @@
 import "./Section2_lojas.css"
 import imgLoja from "../../assets/loja.png"
+import { Link } from "react-router-dom";
+import CafeDoPonto from "../../../PerfilRestaurante/CafeDoPonto/CafeDoPonto";
 function Section_2() {
     return (
         <>
@@ -20,11 +22,14 @@ function Section_2() {
                                 mais precisa.
                             </p>
 
-                            <div className='btn-loja'>
-                                <button>Acesse</button>
-                            </div>
-                        </div>
 
+                            <Link to="/perfil-restaurante/bella-vita" className="btn-loja">
+                                <button>
+                                    Acesse
+                                </button>
+                            </Link>
+
+                        </div>
                     </div>
                 </div>
 
@@ -40,9 +45,11 @@ function Section_2() {
                                 em nossa comunidade.
                             </p>
 
-                            <div className='btn-loja2'>
-                                <button>Acesse</button>
-                            </div>
+                            <Link to="/perfil-restaurante/sabor-e-arte" className="btn-loja2">
+                                <button>
+                                    Acesse
+                                </button>
+                            </Link>
                         </div>
 
                         <div className="imagem_loja">
@@ -68,9 +75,11 @@ function Section_2() {
                                 espalhando solidariedade uma refeição por vez.
                             </p>
 
-                            <div className='btn-loja'>
-                                <button>Acesse</button>
-                            </div>
+                            <Link to="/perfil-restaurante/cafe-do-ponto" className="btn-loja">
+                                <button>
+                                    Acesse
+                                </button>
+                            </Link>
                         </div>
 
                     </div>
