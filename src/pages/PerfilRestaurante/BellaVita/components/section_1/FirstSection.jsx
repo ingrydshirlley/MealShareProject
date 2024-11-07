@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './FirstSection.css';
-import imgRestaurante from "../../../assets/mcdonald.svg";
+import imgRestaurante from "../../../assets/restaurante-italiano.jpeg";
 import pao from "../../../assets/pao.svg";
 import Modal from '../Modal/modal.jsx';
 import Modal2 from '../Modal/modal2.jsx';
 import Modal3 from '../Modal/modal3.jsx';
 
-    
 
- function FirstSection() {
+
+function FirstSection() {
 
 
     const [modalIsOpen, setIsOpen] = useState(false);
@@ -41,14 +41,13 @@ import Modal3 from '../Modal/modal3.jsx';
 
     return (
         <div className="FirstSectionContainer">
-
-            <div className='restaurante'>
-                <img className='img-restaurante'src={imgRestaurante} alt="Restaurante" />
+            <div className="restaurante">
+                <img className="img-restaurante" src={imgRestaurante} alt="Restaurante" />
                 <h1>Bella Vita</h1>
             </div>
 
-            <div className='vouchers'>
 
+            <div className='vouchers'>
                 <div className='text-vouchers'>
                     <h1>Solicitações e Vouchers:</h1>
                 </div>
@@ -59,7 +58,7 @@ import Modal3 from '../Modal/modal3.jsx';
                         <h2 className='pessoa'>Ingryd Shirlley</h2>
                         <h2 className='pedido'>Pedido #44</h2>
                         <h2 className='valor'>Valor total: R$35,00</h2>
-                        <h2 className='arrecadado'>Valor arrecadado: R$15,00</h2>     
+                        <h2 className='arrecadado'>Valor arrecadado: R$15,00</h2>
                         <button onClick={openModal} className='doar'>DOAR</button>
                     </div>
 
@@ -104,7 +103,7 @@ import Modal3 from '../Modal/modal3.jsx';
                     </div>
 
                 </div>
-                
+
             </div>
 
             <div className='cardapioetext'>
@@ -113,7 +112,7 @@ import Modal3 from '../Modal/modal3.jsx';
                 </div>
 
                 <div className='container-cardapio'>
-                
+
                     <div className='cardCardapio'>
                         <div className='infos'>
                             <h2 className='nome'>Pão de Queijo com molho e mussarela</h2>
@@ -126,12 +125,12 @@ import Modal3 from '../Modal/modal3.jsx';
 
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
                     <div className='cardCardapio'>
@@ -143,15 +142,15 @@ import Modal3 from '../Modal/modal3.jsx';
                                 cremoso de mussarela. Ideal para um café da <br />
                                 manhã saboroso ou um lanche da tarde.
                             </h2>
-                            
+
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
                     <div className='cardCardapio'>
@@ -163,15 +162,15 @@ import Modal3 from '../Modal/modal3.jsx';
                                 cremoso de mussarela. Ideal para um café da <br />
                                 manhã saboroso ou um lanche da tarde.
                             </h2>
-                            
+
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
                     <div className='cardCardapio'>
@@ -183,15 +182,15 @@ import Modal3 from '../Modal/modal3.jsx';
                                 cremoso de mussarela. Ideal para um café da <br />
                                 manhã saboroso ou um lanche da tarde.
                             </h2>
-                            
+
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
                     <div className='cardCardapio'>
@@ -203,15 +202,15 @@ import Modal3 from '../Modal/modal3.jsx';
                                 cremoso de mussarela. Ideal para um café da <br />
                                 manhã saboroso ou um lanche da tarde.
                             </h2>
-                            
+
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
                     <div className='cardCardapio'>
@@ -223,28 +222,27 @@ import Modal3 from '../Modal/modal3.jsx';
                                 cremoso de mussarela. Ideal para um café da <br />
                                 manhã saboroso ou um lanche da tarde.
                             </h2>
-                            
+
                             <div className="precoDoacao">
                                 <h2 className='precoRef'>R$7,90</h2>
-                                <button onClick={openSecondModal}className='doar2'>DOAR</button>
+                                <button onClick={openSecondModal} className='doar2'>DOAR</button>
                             </div>
                         </div>
-                        
+
                         <div className='img-pao'> <img src={pao} alt="Restaurante" /></div>
-                            
+
                     </div>
 
-                   <Modal isOpen={modalIsOpen} onRequestClose={closeModal}/>
-                   <Modal2 isOpen={secondModalIsOpen} onRequestClose={closeSecondModal}/>
-                   <Modal3 isOpen={thirdyModalIsOpen} onRequestClose={closeThirdyModal}/>
+                    <Modal isOpen={modalIsOpen} onRequestClose={closeModal} />
+                    <Modal2 isOpen={secondModalIsOpen} onRequestClose={closeSecondModal} />
+                    <Modal3 isOpen={thirdyModalIsOpen} onRequestClose={closeThirdyModal} />
 
                 </div>
-         
-            </div>
 
-        </div>   
-        
-    );  
+            </div>
+        </div>
+
+    );
 }
 
 export default FirstSection;

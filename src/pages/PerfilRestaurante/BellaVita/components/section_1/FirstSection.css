@@ -1,13 +1,39 @@
 body {
-    background-color: #F2F2F2;
-  }
+    background-color: plum;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+}
+
+.FirstSectionContainer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: plum;
+}
+
+.img-restaurante {
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: auto; /* Mantém a proporção */
+    margin: 0; /* Remove qualquer margem */
+    padding: 0; /* Remove qualquer padding */
+    display: block;
+}
 
 .restaurante {
+    width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 2vw 7vw;
+    align-items: center;
+    background-color: green;
+    margin: 0; /* Garante que não há margem */
+    padding: 0;
 }
+
 
 .restaurante h1 {
     font-size: 2.8vw;
@@ -15,7 +41,14 @@ body {
     color: #4D4D4D;
     margin-top: 1vw;
     font-family: var(--font-family);
+    text-align: center;
+    z-index: 1; /* Garante que o título fique acima de outros elementos */
 }
+
+
+
+
+
 
 .vouchers {
     margin: 0 7vw 2vw;
@@ -152,8 +185,8 @@ body {
     margin-top: 0.3vw;
     padding: 10px 0 1px;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cardCardapio {
@@ -213,13 +246,13 @@ body {
     margin-top: 10px;
 }
 
-.cardapioetext{
+.cardapioetext {
     margin: 0 7vw 2vw;
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
     .doar2 {
-        height: 1.6vw; 
+        height: 1.6vw;
     }
 
     .pessoa {
@@ -238,7 +271,7 @@ body {
         margin-top: 1.8vw;
     }
 
-    .cardreivindicar .reivindicar{
+    .cardreivindicar .reivindicar {
         margin-top: 0.3vw;
     }
 
