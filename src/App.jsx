@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import DoeAgora from "./pages/DoeAgora/DoeAgora";
 import Header from "./components/Header";
-import PerfilRestaurante from "./pages/PerfilRestaurante/PerfilRestaurante";
+import Lojas from "./pages/Lojas/Lojas";
 
 function App() {
   const location = useLocation();
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/doe-agora" element={<DoeAgora />} />
-        <Route path="/lojas" element={<PerfilRestaurante />} />
+        <Route path="/lojas" element={<Lojas />} />
       </Routes>
     </>
   );

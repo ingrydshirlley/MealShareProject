@@ -1,0 +1,133 @@
+.section2_lojas {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding-bottom: 7rem;
+}
+
+.sobre-loja {
+    padding: 4rem 75px 0px 0px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loja {
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #D4A017;
+    border-radius: 0px 400px 400px 0px;
+}
+
+.texts_loja{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 75PX;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.imagem_loja{
+    height: 100%;
+    width: 40%;
+}
+
+.imagem_loja img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.sobre-loja2 {
+    margin-top: 4rem;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.loja2 {
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #D9EAD3;
+    border-radius: 400px 0px 0px 400px;
+}
+
+
+.texts_loja2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 75PX;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: end;
+}
+
+
+.texts_loja>h1, .texts_loja2>h1 {
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+.texts_loja2>h1 {
+    color: #4D4D4D;
+}
+
+.texts_loja2>p {
+    color: #4D4D4D;
+}
+
+.texts_loja>p, .texts_loja2>p {
+    font-size: 1.25rem;
+}
+
+.btn-loja {
+    display: flex;
+    justify-content: flex-start; 
+    width: 100%; 
+}
+
+.btn-loja2 {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+.btn-loja > button {
+    height: 3rem;
+    width: 12rem;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    color: #D4A017;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.btn-loja2 > button {
+    height: 3rem;
+    width: 12rem;
+    background-color: #4D4D4D;
+    border: none;
+    font-weight: bold;
+    color: #D9EAD3;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
