@@ -3,24 +3,21 @@ import './Modal.css';
 import logoPerfil from "../../../assets/logoPerfil.svg";
 
 function Modal({ isOpen, onRequestClose }) {
-    const valorTotal = 35; // valor total necessário
-    const [valorArrecadado, setValorArrecadado] = useState(25); // valor inicial arrecadado
-    const [valorDoacao, setValorDoacao] = useState(0); // valor da doação inserida
-    const [mensagemSucesso, setMensagemSucesso] = useState(false); // estado para a mensagem de sucesso
+    const valorTotal = 35;
+    const [valorArrecadado, setValorArrecadado] = useState(25); 
+    const [valorDoacao, setValorDoacao] = useState(0); 
+    const [mensagemSucesso, setMensagemSucesso] = useState(false);
 
     if (!isOpen) return null;
 
-    // Função para lidar com a doação
     const handleDonation = () => {
         const novoValorArrecadado = valorArrecadado + parseFloat(valorDoacao);
         setValorArrecadado(novoValorArrecadado);
 
-        // Verifica se o valor arrecadado atinge ou ultrapassa o total
         if (novoValorArrecadado >= valorTotal) {
             setMensagemSucesso(true);
         }
 
-        // Limpa o valor do input após a doação
         setValorDoacao(0);
     };
 

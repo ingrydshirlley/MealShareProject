@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../../../components/globalLojas.css';
-import imgRestaurante from "../../../assets/mcdonald.svg";
 import pao from "../../../assets/pao.svg";
 import Modal from '../Modal/modal.jsx';
 import Modal2 from '../Modal/modal2.jsx';
@@ -8,9 +7,7 @@ import Modal3 from '../Modal/modal3.jsx';
 
 
 
-function FirstSection({ restaurantName }) {
-
-
+function FirstSection({ restaurantName, imgRestaurante }) {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [secondModalIsOpen, setSecondModalIsOpen] = useState(false)
     const [thirdyModalIsOpen, setThirdyModalIsOpen] = useState(false)
@@ -43,7 +40,7 @@ function FirstSection({ restaurantName }) {
         <div className="FirstSectionContainer">
 
             <div className='restaurante'>
-                <img className='img-restaurante' src={imgRestaurante} alt="Restaurante" />
+            <img className='img-restaurante' src={imgRestaurante} alt="Restaurante" />
                 <h1>{restaurantName}</h1>
             </div>
 
