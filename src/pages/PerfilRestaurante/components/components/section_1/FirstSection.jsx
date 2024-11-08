@@ -40,7 +40,7 @@ function FirstSection({ restaurantName, imgRestaurante }) {
         <div className="FirstSectionContainer">
 
             <div className='restaurante'>
-            <img className='img-restaurante' src={imgRestaurante} alt="Restaurante" />
+            <img className='img-capa-restaurante' src={imgRestaurante} alt="Restaurante" />
                 <h1>{restaurantName}</h1>
             </div>
 
