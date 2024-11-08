@@ -1,7 +1,6 @@
 import "./Section2_lojas.css"
 import imgLoja from "../../assets/loja.png"
 import { Link } from "react-router-dom";
-import CafeDoPonto from "../../../PerfilRestaurante/CafeDoPonto/CafeDoPonto";
 function Section_2() {
     return (
         <>
@@ -57,7 +56,6 @@ function Section_2() {
                         </div>
                     </div>
                 </div>
-
 
                 <div className='sobre-loja'>
                     <div className='loja'>

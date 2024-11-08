@@ -4,7 +4,7 @@ import Vector from "../../assets/Vector.svg"
 function Section_1() {
     return (
         <>
-            <section className='section1'>
+            <section className='section1_quemSomos'>
                 <div className='texts'>
                     <h1>Criando um ciclo positivo<br /> de impacto social.</h1>
                     <hr className='linha-hr' />

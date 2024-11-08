@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './FirstSection.css';
-import imgRestaurante from "../../../assets/restaurante-italiano.jpeg";
+import '../../../components/globalLojas.css';
+import imgRestaurante from "../../../assets/mcdonald.svg";
 import pao from "../../../assets/pao.svg";
 import Modal from '../Modal/modal.jsx';
 import Modal2 from '../Modal/modal2.jsx';
@@ -8,7 +8,7 @@ import Modal3 from '../Modal/modal3.jsx';
 
 
 
-function FirstSection() {
+function FirstSection({ restaurantName }) {
 
 
     const [modalIsOpen, setIsOpen] = useState(false);
@@ -41,13 +41,14 @@ function FirstSection() {
 
     return (
         <div className="FirstSectionContainer">
-            <div className="restaurante">
-                <img className="img-restaurante" src={imgRestaurante} alt="Restaurante" />
-                <h1>Bella Vita</h1>
+
+            <div className='restaurante'>
+                <img className='img-restaurante' src={imgRestaurante} alt="Restaurante" />
+                <h1>{restaurantName}</h1>
             </div>
 
-
             <div className='vouchers'>
+
                 <div className='text-vouchers'>
                     <h1>Solicitações e Vouchers:</h1>
                 </div>
@@ -240,6 +241,7 @@ function FirstSection() {
                 </div>
 
             </div>
+
         </div>
 
     );

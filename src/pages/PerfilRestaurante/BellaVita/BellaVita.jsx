@@ -1,10 +1,10 @@
 import React from "react";
-import FirstSection1 from "./components/section_1/FirstSection1";
+import FirstSection from "../components/components/section_1/FirstSection";
 
 function BellaVita() {
   return (
     <>
-      <FirstSection1 />
+      <FirstSection restaurantName="Bella Vita" />
     </>
   );
 }

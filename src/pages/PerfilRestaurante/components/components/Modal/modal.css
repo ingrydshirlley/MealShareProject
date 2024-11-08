@@ -12,6 +12,7 @@
 }
 
 .modal-container {
+    position: relative; 
     background-color: #FFFFFF;
     border: solid 2px #DBE1E2;
     border-radius: 1vw;
@@ -22,15 +23,44 @@
     justify-content: center;
     z-index: 1000;
 }
-
 .modal-content {
     width: 27vw;
     height: 32vw;
-    border: solid 2px #DBE1E2;
+    border: none;
     border-radius: 1vw;
     padding: 0.4vw 1vw 0 1vw;
-
 }
+
+.close-button {
+    position: absolute; 
+    top: 1vw; 
+    right: 1vw;
+    background: none;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: #4D4D4D;
+    z-index: 1001;
+}
+
+.mensagem-sucesso {
+    color: #4CAF50;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+
+.inputValor {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    color: #4D4D4D;
+    text-align: center;
+}
+
 
 .pedido {
     font-size: 1.3vw;

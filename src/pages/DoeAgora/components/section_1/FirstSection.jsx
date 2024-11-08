@@ -6,7 +6,7 @@ function FirstSection() {
   return (
 
     <>
-    <div className="container-main">
+    <div className="container-main_doeAgora">
       <div className="texts">
         <h1>No Brasil do futuro, a fome <br />faz parte do passado.</h1>
         <h2>ESSA É A HISTÓRIA QUE QUEREMOS ESCREVER COM VOCÊ.</h2>

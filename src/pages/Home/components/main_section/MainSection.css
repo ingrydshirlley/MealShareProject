@@ -2,7 +2,7 @@
     background-image: url("../../assets/background_home.png");
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: var(--padding);
+    padding-top: 70px;
 }
 
 .container-main-section .texts {

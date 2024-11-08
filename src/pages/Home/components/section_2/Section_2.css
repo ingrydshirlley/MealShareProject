@@ -9,11 +9,11 @@
     position: relative;
 }
 
-.container-section-2 .texts {
+.container-section-2 .texts_home {
     width: 50%;
 }
 
-.container-section-2 .texts h1 {
+.container-section-2 .texts_home h1 {
     font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -21,13 +21,13 @@
     margin-bottom: 20px;
 }
 
-.container-section-2 .texts p {
+.container-section-2 .texts_home p {
     font-size: 1.2rem;
     color: var(--text-color-secondary);
     margin-bottom: 30px;
 }
 
-.container-section-2 .texts button {
+.container-section-2 .texts_home button {
     padding: var(--button-padding);
     border-radius: var(--border-radius);
     border: 2px solid transparent;
@@ -39,7 +39,7 @@
     font-weight: 700;
 }
 
-.container-section-2 .texts button:hover {
+.container-section-2 .texts_home button:hover {
     background-color: #2F4F4F;
     color: white;
 }
