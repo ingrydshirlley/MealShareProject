@@ -7,7 +7,7 @@ function MainSection() {
             <div className="texts">
                 <h1>Com pouco,<br />você pode fazer muito<br />pela vida de alguém.</h1>
                 <p>Faça parte da construção de um Brasil sem fome.</p>
-                <button>SAIBA MAIS</button>
+                <button> <a href="https://youtu.be/EeniHPGO-sM">CONFIRA NOSSO VÍDEO</a> </button>
             </div>
         </div>
     );
